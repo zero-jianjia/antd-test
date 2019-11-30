@@ -118,6 +118,12 @@ export default {
               authority: ['admin'],
             },
             {
+              path: '/demo',
+              name: 'demo-test',
+              icon: 'smile',
+              component: './demo/Index',
+            },
+            {
               component: './404',
             },
           ],
